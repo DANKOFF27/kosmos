@@ -1,0 +1,173 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    list-style: none;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body{
+    background: url(./img/field_image_istock-516189065-photoaidcom-darken.jpg);
+    background-size: cover;
+    overflow: hidden;
+}
+.solnichna_sistema {
+    display: flex;
+    align-items: center;
+    margin-top: 300px;
+    margin-left: 300px;
+}
+
+.box_upiter {
+    transform: translateX(400px);
+}
+.upiter {
+    width: 100px;
+    height: 100px;
+    background-size: cover;
+    animation: upiter 7s infinite linear;
+}
+@keyframes upiter{
+    from{
+        transform: rotate(0deg) translateX(350px) rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg) translateX(350px) rotate(-360deg);
+    }
+}
+.box_saturn {
+    transform: translateX(300px);
+}
+
+.saturn {
+    width: 110px;
+    height: 110px;
+    background-size: cover;
+    animation: saturn 9s infinite linear;
+    position: relative;
+}
+
+@keyframes saturn{
+    from{
+        transform: rotate(0deg) translateX(270px) rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg) translateX(270px) rotate(-360deg);
+    }
+}
+.box_uran {
+    transform: translateX(200px);
+}
+.uran {
+    width: 80px;
+    height: 80px;
+    background-size: cover;
+    animation: uran 5s infinite linear;
+}
+@keyframes uran{
+    from{
+        transform: rotate(0deg) translateX(200px) rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg) translateX(200px) rotate(-360deg);
+    }
+}
+.box_neptun {
+    transform: translateX(150px);
+}
+.neptun {
+    width: 70px;
+    height: 70px;
+    background-size: cover;
+    animation: neptun 8s infinite linear;
+}
+@keyframes neptun{
+    from{
+        transform: rotate(0deg) translateX(150px) rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg) translateX(150px) rotate(-360deg);
+    }
+}
+.box_sun {
+}
+.sun {
+    width: 200px;
+    height: 200px;
+    background-size: cover;
+    animation: sun 3s linear infinite;
+}
+@keyframes sun{
+    from{
+        transform: rotate(360deg);
+    }
+}
+.box_merkurii {
+    transform: translateX(-100px);
+}
+.merkurii {
+    width: 30px;
+    height: 30px;
+    background-size: cover;
+    animation: merkurii 6s infinite linear;
+}
+@keyframes merkurii{
+    from{
+        transform: rotate(0deg) translateX(-150px) rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg) translateX(-150px) rotate(-360deg);
+    }
+}
+.box_venera {
+    transform: translateX(-150px);
+}
+.venera {
+    width: 40px;
+    height: 40px;
+    background-size: cover;
+    animation: venera 11s infinite linear;
+}
+@keyframes venera{
+    from{
+        transform: rotate(0deg) translateX(-200px) rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg) translateX(-200px) rotate(-360deg);
+    }
+}
+.box_zemla {
+    transform: translateX(-200px);
+}
+.zemla {
+    width: 45px;
+    height: 45px;
+    background-size: cover;
+    animation: zemla 5s infinite linear;
+}
+@keyframes zemla{
+    from{
+        transform: rotate(0deg) translateX(-250px) rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg) translateX(-250px) rotate(-360deg);
+    }
+}
+.box_mars {
+    transform: translateX(-250px);
+}
+.mars {
+    width: 35px;
+    height: 35px;
+    background-size: cover;
+    animation: mars 8s infinite linear;
+}
+@keyframes mars{
+    from{
+        transform: rotate(0deg) translateX(-350px) rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg) translateX(-350px) rotate(-360deg);
+    }
+}
